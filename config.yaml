@@ -1,0 +1,12 @@
+service:
+  name: cortex-take-home-demo
+  environment: production
+  owner: kelvin-hawkins
+
+deployment:
+  region: us-east-1
+  replicas: 2
+
+monitoring:
+  enabled: true
+  alert-channel: "#platform-alerts"
